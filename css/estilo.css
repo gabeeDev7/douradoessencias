@@ -1,0 +1,534 @@
+
+
+
+body {
+    margin: 0px;
+}
+
+.container {
+    background-color: #C0DCFC;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 560px;
+    padding-left: 10px;
+    height: 25px;
+}
+
+.headerimg {
+    gap: 4px;
+}
+
+.headerimg img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.container2 {
+    background-color: #9FBFE3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.contmn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ladops img {
+    max-width: 35px;
+}
+
+.ladops {
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ladopss {
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ladopss img {
+    max-width: 35px;
+}
+
+.contladops {
+    display: flex;
+    gap: 5px;
+}
+
+.logo img{
+    max-width: 200px;
+    padding-left: 20px;
+}
+
+.pesquisa input{
+    width: 600px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.menus {
+    background-color: #9FBFE3;
+    border: 2px solid white;
+    height: 50px;
+}
+
+
+
+.ulmenu{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    border-radius: 4px;
+    z-index: 99999;
+}
+
+nav ul li:hover .submenu {
+    display: block;
+}
+
+.submenu li a :hover {
+    background-color: #cc06fa;
+    color: #ff0000;
+    border-radius: 5px;
+}
+
+
+header {
+    /*position: fixed;*/
+    width: 100%;
+}
+
+.banner {
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.h2 {
+    font-family: 'Playfair Display';
+    text-align: center;
+    animation: move 4s ease;
+}
+
+
+
+
+.h2 hr{
+    height: 1px;
+    border: none;
+    background-color: black;
+    width: 150px;
+}
+
+.prod {
+    width: 250px;
+    height: 390px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+
+.prod:hover {
+    transform: scale(1.1);
+}
+
+.prod img{
+    max-width: 250px;
+    max-height: 200px;
+    padding-left: 25px;
+}
+
+.background {
+    background-color: dimgrey;
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 3px;
+}
+
+.txt_perfume {
+    width: 260px;
+    padding-left: 3px;
+}
+
+.preco {
+    padding-left: 3px;
+}
+
+.antigopreco {
+    width: 70px;
+    font-size: 11px;
+    color: red;
+    padding-left: 3px;
+}
+
+.container_promocao {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.backgroud_meio img{
+    width: 800px;
+}
+
+.backgroud_meio {
+    text-align: center;
+    margin: 50px;
+}
+
+.h2l {
+    font-family: 'Playfair Display';
+    text-align: center;
+}
+
+.h2l hr {
+    height: 1px;
+    border: none;
+    background-color: black;
+    width: 80px;
+}
+
+.botao button {
+    width: 200px;
+    height: 50px;
+    background-color: #b5dff1;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+button:hover {
+    transition-delay: 0.1s;
+    background-color: #80b4d3;
+}
+
+
+
+footer {
+    background-color: #9FBFE3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dourado_essencias {
+    width: 25%;
+}
+
+.column ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.column h2{
+    margin-bottom: 70px;
+}
+
+.dourado_essencias h2{
+    margin-bottom: 80px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li :hover {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.containersobre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.textp {
+    width: 40%;
+    background-color: rgba(159, 191, 227, 0.53);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.h2sobre {
+    font-size: 40px;
+}
+
+.missao {
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    padding: 10px;
+    text-align: justify;
+}
+
+.historia {
+    background-color: white;
+    border-radius: 20px;
+    width: 40%;
+    padding: 10px;
+    text-align: justify;
+}
+
+.contmissao {
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    background-color: rgba(181, 223, 241, 0.16);
+}
+
+.contmissao h3 {
+    font-size: 20px;
+}
+
+.contmissao {
+    padding-bottom: 100px;
+}
+
+.contcontato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid;
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+    gap: 60px;
+}
+
+.tudo{
+    display: flex;
+    justify-content: center;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ladoalado {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.msgg {
+    width: 100%;
+    height: 100px;
+}
+
+.input {
+    border-radius: 10px;
+    width: 350px;
+    height: 28px;
+}
+
+.fundo {
+    background: radial-gradient(white,#9FBFE3);
+    padding-top: 10px;
+}
+
+.btn {
+    background-color: #66869b;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #73a6bb;
+    color: white;
+}
+
+.divbtn {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*efeito keyframes*/
+
+.banner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.continer {
+    display: flex;
+    width: 100%;
+    animation: slide 30s infinite;
+    z-index: 0;
+}
+
+.continer img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0)}
+    33.33% { transform: translateX(-1430px)}
+    66.66% { transform: translateX(-2860px)}
+    100% { transform: translateX(0)}
+}
+
+.img_sobre {
+    animation: move 3s ease;
+}
+
+@keyframes move {
+    0% { transform: translateX(-300px)}
+    100% { transform: translateX(0)}
+}
+
+@media (max-width: 768px) {
+    .container {
+        gap: 40px;
+    }
+
+    .logo img{
+        width: 100px;
+    }
+    .pesquisa input{
+        width: 150px;
+        height: 30px;
+    }
+    
+    .ladops {
+        padding-right: 30px;
+    }
+    
+    .ladops img {
+        width: 30px;
+    }
+
+    .ladops p{
+        font-size: 10px;
+    }
+
+    .ladopss{
+        display: none;
+    }
+
+    .contladops {
+        gap: 0;
+    }
+    
+    .container_promocao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .backgroud_meio img{
+        width: 100%;
+    }
+
+    .contfooter {
+        display: flex;
+    }
+
+    .logofooter img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .dourado_essencias h2{
+        font-size: 16px;
+    }
+    .dourado_essencias p{
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .column {
+        width: 50%;
+    }
+    
+    .column h2{
+        font-size: 16px;
+    }
+    .column ul{
+        font-size: 13px;
+    }
+    .logofooter {
+        display: none;
+    }
+    footer {
+        width: 100%;
+    }
+
+    .container_promocao {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @keyframes slide {
+        0% { transform: translateX(0)}
+        33.33% { transform: translateX(-770px)}
+        66.66% { transform: translateX(-1550px)}
+        100% { transform: translateX(0)}
+    }
+    .continer img {
+        object-fit: cover;
+    }
+
+    .banner {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+}

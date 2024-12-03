@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #C0DCFC;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 560px;
+    padding-left: 10px;
+    height: 25px;
+}
+
+.headerimg {
+    gap: 4px;
+}
+
+.headerimg img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.container2 {
+    background-color: #9FBFE3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.contmn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ladops img {
+    max-width: 35px;
+}
+
+.ladops {
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contladops {
+    display: flex;
+    gap: 5px;
+}
+
+.logo img{
+    max-width: 200px;
+    padding-left: 20px;
+}
+
+.pesquisa input{
+    width: 600px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.menus {
+    background-color: #9FBFE3;
+    border: 2px solid white;
+    height: 50px;
+}
+
+
+
+.ulmenu{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    border-radius: 5px;
+}
+
+nav ul li:hover .submenu {
+    display: block;
+}
+
+.submenu li a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+}
+
+
+.containerr {
+    display: flex;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.imgprod {
+    flex: 1;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.imgprod img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.detalhes_produto {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.detalhes_produto h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.preco_velho {
+    font-size: 18px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.preco_novo {
+    font-size: 24px;
+    color: #e63946;
+    font-weight: bold;
+}
+
+.estrela {
+    color: #ffc107;
+    font-size: 18px;
+}
+
+.quantidade {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantidade button {
+    background-color: #9FBFE3;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quantidade button:hover {
+    background-color: #6a9ed6;
+}
+
+.quantidade input {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.btncomprar {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btncomprar:hover {
+    background-color: #218838;
+}
+
+.formas_pagamento {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.formas_pagamento img {
+    max-width: 50px;
+    height: auto;
+}
+
+.descprod {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.descprod strong {
+    color: #333;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #9FBFE3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dourado_essencias {
+    width: 25%;
+}
+
+.column ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.column h2{
+    margin-bottom: 70px;
+}
+
+.dourado_essencias h2{
+    margin-bottom: 80px;
+}
+
+
+main {
+    padding-bottom: 50px;
+}
